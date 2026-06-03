@@ -54,7 +54,7 @@ python3 -m pip install -r requirements.txt
 ---
 Usage
 
-Find Available Network Interfaces
+Find Available Network Interfaces-
 
 macOS / Linux:
 
@@ -62,25 +62,25 @@ bash
 ifconfig
 
 
-Run Packet Analyzer
+Run Packet Analyzer-
 
 bash
 sudo python3 main.py -i en1
 
 
-Filter TCP Traffic
+Filter TCP Traffic-
 
 bash
 sudo python3 main.py -i en1 -f tcp
 
 
-Filter UDP Traffic
+Filter UDP Traffic-
 
 bash
 sudo python3 main.py -i en1 -f udp
 
 
-Filter ICMP Traffic
+Filter ICMP Traffic-
 
 bash
 sudo python3 main.py -i en1 -f icmp
@@ -88,32 +88,8 @@ sudo python3 main.py -i en1 -f icmp
 
 ---
 
-Example Output
-
-text
-====================================================================================================
-NETWORK PACKET ANALYZER
-====================================================================================================
-
-[00001] 14:25:01 | TCP   | 192.168.1.5:53422 --> 142.250.xxx.xxx:443 | Flags: SYN
-[00002] 14:25:01 | TCP   | 142.250.xxx.xxx:443 --> 192.168.1.5:53422 | Flags: SYN,ACK
-[00003] 14:25:01 | TCP   | 192.168.1.5:53422 --> 142.250.xxx.xxx:443 | Flags: ACK
 
 
----
-
-Project Structure
-
-text
-network-packet-analyzer/
-│
-├── main.py
-├── requirements.txt
-├── README.md
-└── screenshots/
-
-
----
 
 Disclaimer
 
