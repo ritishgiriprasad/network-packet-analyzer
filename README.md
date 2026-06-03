@@ -1,4 +1,4 @@
-# Network Packet Analyzer
+Network Packet Analyzer
 
 A real-time network packet analyzer built in Python using Scapy.
 
@@ -6,26 +6,26 @@ This project captures live network traffic from a selected network interface and
 
 Features
 
-- Live packet capture
-- Real-time packet summaries
-- Protocol detection
+Live packet capture
+ Real-time packet summaries
+ Protocol detection
   - TCP
   - UDP
   - ICMP
   - ARP
-- Source and destination IP extraction
-- Source and destination port extraction
-- TCP flag decoding
+ Source and destination IP extraction
+ Source and destination port extraction
+ TCP flag decoding
   - SYN
   - ACK
   - FIN
   - RST
   - PSH
   - URG
-- Protocol filtering
-- Packet counting
-- Timestamped output
-- Error handling
+ Protocol filtering
+ Packet counting
+ Timestamped output
+ Error handling
 
 ---
 
