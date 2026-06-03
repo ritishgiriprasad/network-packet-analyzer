@@ -40,16 +40,16 @@ Installation
 
 Clone the repository:
 
-```bash
+bash
 git clone https://github.com/ritishgiriprasad/network-packet-analyzer.git
 cd network-packet-analyzer
-```
+
 
 Install dependencies:
 
-```bash
+bash
 python3 -m pip install -r requirements.txt
-```
+
 
 ---
 Usage
@@ -58,39 +58,39 @@ Find Available Network Interfaces
 
 macOS / Linux:
 
-```bash
+bash
 ifconfig
-```
+
 
 Run Packet Analyzer
 
-```bash
+bash
 sudo python3 main.py -i en1
-```
+
 
 Filter TCP Traffic
 
-```bash
+bash
 sudo python3 main.py -i en1 -f tcp
-```
+
 
 Filter UDP Traffic
 
-```bash
+bash
 sudo python3 main.py -i en1 -f udp
-```
+
 
 Filter ICMP Traffic
 
-```bash
+bash
 sudo python3 main.py -i en1 -f icmp
-```
+
 
 ---
 
 ## Example Output
 
-```text
+text
 ====================================================================================================
 NETWORK PACKET ANALYZER
 ====================================================================================================
@@ -98,20 +98,20 @@ NETWORK PACKET ANALYZER
 [00001] 14:25:01 | TCP   | 192.168.1.5:53422 --> 142.250.xxx.xxx:443 | Flags: SYN
 [00002] 14:25:01 | TCP   | 142.250.xxx.xxx:443 --> 192.168.1.5:53422 | Flags: SYN,ACK
 [00003] 14:25:01 | TCP   | 192.168.1.5:53422 --> 142.250.xxx.xxx:443 | Flags: ACK
-```
+
 
 ---
 
 ## Project Structure
 
-```text
+text
 network-packet-analyzer/
 │
 ├── main.py
 ├── requirements.txt
 ├── README.md
 └── screenshots/
-```
+
 
 ---
 
