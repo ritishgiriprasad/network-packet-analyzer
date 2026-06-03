@@ -88,7 +88,7 @@ sudo python3 main.py -i en1 -f icmp
 
 ---
 
-## Example Output
+Example Output
 
 text
 ====================================================================================================
@@ -102,7 +102,7 @@ NETWORK PACKET ANALYZER
 
 ---
 
-## Project Structure
+Project Structure
 
 text
 network-packet-analyzer/
@@ -115,7 +115,7 @@ network-packet-analyzer/
 
 ---
 
-## Disclaimer
+Disclaimer
 
 -This project is intended for educational purposes and should only be used on networks you own or are authorized to analyze.
 -Built as a networking learning project while exploring packet analysis and Scapy.
