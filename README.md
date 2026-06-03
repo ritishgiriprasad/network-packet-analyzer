@@ -13,19 +13,19 @@ Live packet capture
   - UDP
   - ICMP
   - ARP
-     *Source and destination IP extraction
-     *Source and destination port extraction
-     *TCP flag decoding
+     -Source and destination IP extraction
+     -Source and destination port extraction
+     -TCP flag decoding
   - SYN
   - ACK
   - FIN
   - RST
   - PSH
   - URG
-     *Protocol filtering
-     *Packet counting
-     *Timestamped output
-     *Error handling
+     -Protocol filtering
+     -Packet counting
+     -Timestamped output
+     -Error handling
 
 ---
 
